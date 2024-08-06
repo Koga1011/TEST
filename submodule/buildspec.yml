@@ -4,7 +4,7 @@ phases:
   pre_build:
     commands:
       - pwd
-      - docker build -t helloworld .
+      - docker build -t helloworld submodule
   build:
     commands:
       - docker images
